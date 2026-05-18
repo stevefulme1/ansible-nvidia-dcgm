@@ -37,7 +37,7 @@ requirements:
 EXAMPLES = r"""
 - name: Create a introspect
   stevefulme1.nvidia_dcgm.dcgm_introspect:
-    
+
     state: present
 
 - name: Delete a introspect
@@ -111,9 +111,9 @@ def find_resource(client, name):
 
 def create_resource(module, client):
     """Create a new resource."""
-    params = module.params
+
     create_data = {k: v for k, v in {
-        
+
     }.items() if v is not None}
     resource = client.post("/v1/introspect", data=create_data)
     if module.params.get("wait"):
@@ -127,9 +127,9 @@ def create_resource(module, client):
 
 def update_resource(module, client, existing):
     """Update an existing resource."""
-    params = module.params
+
     update_data = {k: v for k, v in {
-        
+
     }.items() if v is not None}
     resource = client.patch(f"/v1/introspect/{existing['id']}", data=update_data)
     if module.params.get("wait"):
@@ -172,7 +172,7 @@ def main():
     )
 
     client = create_api_client(module)
-    params = module.params
+
     state = params["state"]
 
     existing = None
