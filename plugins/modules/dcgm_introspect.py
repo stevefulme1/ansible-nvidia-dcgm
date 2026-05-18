@@ -172,6 +172,7 @@ def main():
     )
 
     client = create_api_client(module)
+    params = module.params
 
     state = params["state"]
 
