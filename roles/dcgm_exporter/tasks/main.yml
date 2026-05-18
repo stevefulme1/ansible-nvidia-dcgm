@@ -1,0 +1,9 @@
+---
+- name: Validate
+  ansible.builtin.assert:
+    that: dcgm_exporter_port is defined
+    quiet: true
+
+- name: Execute dcgm_exporter
+  ansible.builtin.debug:
+    msg: "Set up DCGM Prometheus exporter"

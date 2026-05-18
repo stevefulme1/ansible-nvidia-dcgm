@@ -1,0 +1,4 @@
+---
+dcgm_exporter_port: ""
+dcgm_exporter_metrics_path: ""
+dcgm_exporter_gpu_group: ""

@@ -1,0 +1,12 @@
+---
+argument_specs:
+  main:
+    short_description: "Install NVIDIA DCGM on target hosts"
+    options:
+      dcgm_install_version:
+        description: Dcgm Install Version
+        type: str
+        required: true
+      dcgm_install_package_manager:
+        description: Dcgm Install Package Manager
+        type: str

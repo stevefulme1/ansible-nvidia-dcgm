@@ -1,0 +1,9 @@
+---
+- name: Validate
+  ansible.builtin.assert:
+    that: dcgm_install_version is defined
+    quiet: true
+
+- name: Execute dcgm_install
+  ansible.builtin.debug:
+    msg: "Install NVIDIA DCGM on target hosts"
