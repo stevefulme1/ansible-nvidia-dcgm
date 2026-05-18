@@ -1,23 +1,25 @@
-    ---
-    namespace: stevefulme1
-    name: nvidia_dcgm
-    version: 1.0.0
-    readme: README.md
-    authors:
-      - Steve Fulmer <sfulmer@redhat.com>
-    description: >-
-      Ansible Collection for NVIDIA DCGM (Data Center GPU Manager). Provides modules for managing GPU groups, field groups, policies, health checks, diagnostics, and Prometheus exporter setup.
-    license:
-      - GPL-3.0-or-later
-    tags:
-      - 
-infrastructure  - monitoring  - tools  - cloud
-    dependencies: {}
-    repository: https://github.com/stevefulme1/ansible-nvidia-dcgm
-    documentation: https://github.com/stevefulme1/ansible-nvidia-dcgm/blob/main/README.md
-    homepage: https://github.com/stevefulme1/ansible-nvidia-dcgm
-    issues: https://github.com/stevefulme1/ansible-nvidia-dcgm/issues
-    build_ignore:
-      - .git
-      - .github
-      - tests/output
+---
+namespace: stevefulme1
+name: nvidia_dcgm
+version: 1.0.0
+readme: README.md
+authors:
+  - Steve Fulmer <sfulmer@redhat.com>
+description: >-
+  Ansible Collection for NVIDIA DCGM (Data Center GPU Manager). Provides modules for managing GPU groups, field groups, policies, health checks, diagnostics, and Prometheus exporter setup.
+license:
+  - GPL-3.0-or-later
+tags:
+  - infrastructure
+  - monitoring
+  - tools
+  - cloud
+dependencies: {}
+repository: https://github.com/stevefulme1/ansible-nvidia-dcgm
+documentation: https://github.com/stevefulme1/ansible-nvidia-dcgm/blob/main/README.md
+homepage: https://github.com/stevefulme1/ansible-nvidia-dcgm
+issues: https://github.com/stevefulme1/ansible-nvidia-dcgm/issues
+build_ignore:
+  - .git
+  - .github
+  - tests/output
