@@ -1,3 +1,7 @@
+> **EXPERIMENTAL** - This collection is a proof of concept and is not production ready.
+> Modules may use placeholder API endpoints and have not been validated against real infrastructure.
+> Do not use in production environments.
+
     # stevefulme1.nvidia_dcgm
 
     Ansible Collection for NVIDIA DCGM (Data Center GPU Manager). Provides modules for managing GPU groups, field groups, policies, health checks, diagnostics, and Prometheus exporter setup.
