@@ -5,8 +5,7 @@ version: 0.0.1
 readme: README.md
 authors:
   - Steve Fulmer <sfulmer@redhat.com>
-description: "EXPERIMENTAL - proof of concept, not production ready. >-"
-  Ansible Collection for NVIDIA DCGM (Data Center GPU Manager). Provides modules for managing GPU groups, field groups, policies, health checks, diagnostics, and Prometheus exporter setup.
+description: "EXPERIMENTAL - proof of concept, not production ready. Ansible Collection for NVIDIA DCGM (Data Center GPU Manager). Provides modules for managing GPU groups, field groups, policies, health checks, diagnostics, and Prometheus exporter setup."
 license:
   - GPL-3.0-or-later
 tags:
